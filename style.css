@@ -8,3 +8,11 @@
     --silver: #BDBDBD;
 
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo{
+    max-width: 200px;
+}

@@ -21,7 +21,7 @@
 }
 
 .navbar{
-    
+    width: 100vw;
     background-color: var(--midnight-blue);
     color: #fff;
    
@@ -29,6 +29,10 @@
 
 a :hover{
     color: var(--blue-sky);
+}
+
+.active{
+    text-decoration: underline;
 }
 
 .nav-logo{
@@ -87,6 +91,7 @@ a :hover{
   
 .hero-img{
     width: 100vw;
+    margin-top: -1rem;
 }
 
 .hero-h1-box{

@@ -335,3 +335,55 @@ a{
 .text-a{
     color: var(--midnight-blue)
 }
+
+.about-us-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact-us-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
+
+.adoption-form{
+    padding: 40px;
+    width: 700px;
+    background-color: var(--dim-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: left;
+
+
+}
+
+.adoption-form input{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 600px;
+}
+.adoption-form label{
+    text-align: left;
+}
+
+.form-btn{
+    width: 240px;
+    height: 60px;
+    font-size: 16px;
+    background-color: var(--midnight-blue);
+    color: #fff;
+    border: none;
+    margin-top: 2rem;
+}
+
+.form-btn:hover{
+    background-color: var(--blue-sky);
+}

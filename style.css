@@ -114,6 +114,10 @@ a{
     margin-left: 10px;
 
 }
+
+.search-button :hover{
+    background-color: var(--dim-gray);
+}
 .hero-img{
     width: 100vw;
     margin-top: -1rem;

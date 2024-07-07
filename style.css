@@ -105,7 +105,15 @@ a{
    
   }
   
-  
+.search-button{
+    background-color: var(--silver);
+    color: #fff;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    margin-left: 10px;
+
+}
 .hero-img{
     width: 100vw;
     margin-top: -1rem;
